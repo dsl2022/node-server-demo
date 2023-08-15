@@ -7,7 +7,8 @@ app.get('/',(req, res)=>{
     res.send("Hello")
 });
 
-app.get('/all-pokemons',(req, res)=>{    
+app.get('/all-pokemons',(req, res)=>{
+    console.    
     res.send(JSON.stringify(pokemonData))
 });
 
